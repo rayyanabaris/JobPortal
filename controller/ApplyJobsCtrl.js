@@ -2,7 +2,7 @@ const User = require("../models/ApplyJobsModel");
 const Locations = require("../models/LocationModel");
 const Skills = require("../models/JobSkillsModel");
 const Careers = require("../models/CarrierModel");
-const pdfParse = require("pdf-parse");
+// const pdfParse = require("pdf-parse");
 const fs = require("fs");
 const mammoth = require("mammoth");
 
