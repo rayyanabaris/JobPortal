@@ -206,7 +206,7 @@ const SelectedcandidateList = asyncHandler(async (req, res) => {
 
     res.json({
       success: true,
-      message: "Filtered Candidate list fetched successfully",
+      message: "Selected Candidate list fetched successfully",
       data: candidate,
       count,
       page,
