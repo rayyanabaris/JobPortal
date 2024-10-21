@@ -4,7 +4,6 @@ const SelectedCandidateSchema = mongoose.Schema(
   {
     name: {
       type: String,
-      required: true,
     },
     job_category: {
       type: mongoose.Schema.Types.ObjectId,
